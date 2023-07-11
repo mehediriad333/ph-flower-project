@@ -5,6 +5,8 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    width: 1920px;
+
     
 }
 
@@ -57,6 +59,7 @@ header{
 /* ############### feature flower sec ############### */
 
 
+ 
 .feature-heading{
     margin: 100px auto 0;
     text-align: center;
@@ -117,4 +120,22 @@ header{
     font-weight: 700;
     text-decoration-line: underline;
 
+}
+
+/* ############## services ############# */
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    width: 1430px;
+    height: 320px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 150px auto ;
+}
+.services-1 img{
+    display: block;
+    margin: 16px auto;
 }
