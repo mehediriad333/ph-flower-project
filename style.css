@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 1920px;
+    font-family: Lato;
+    max-width: 100vw;
 
     
 }
@@ -247,4 +247,31 @@ span{
     margin-right: 10px;
     font-size: 18px;
     text-align: center;
+}
+
+/* ############# footer ############## */
+
+footer{
+    width: 1920px;
+    height: 300px;
+    background: #111010;
+    
+    text-align: center;
+    margin: auto;
+    padding-top: 80px ;
+}
+footer h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-desc{
+    color: rgba(255, 255, 255, 0.90);
+    width: 600px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 18px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
