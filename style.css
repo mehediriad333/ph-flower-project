@@ -129,7 +129,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 200px;
-    width: 1430px;
+    width: 1440px;
     height: 320px;
     border-radius: 10px;
     background: rgba(39, 39, 39, 0.05);
@@ -176,7 +176,10 @@ span{
 }
 
 /* ############# instagram section ###########*/
-
+.instagram{
+    margin: 0 auto;
+    width: 1440px;
+}
 .insta-head{
     margin: 150px auto 40px;
     text-align: center;
@@ -202,4 +205,46 @@ span{
     justify-content: center;
     align-items: center;
     gap: 25px;
+    
+}
+
+/* ############# subscribe ########### */
+
+.deals{
+    background-image: url("./asset/Rectangle\ 9.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 450px;
+    margin: 80px auto;
+}
+.deals-desc{
+    text-align: center;
+    padding-top: 150px;
+}
+.deals-desc h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+.deals-desc p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.deals-desc input[type="email"], .deals-desc input[type="submit"]{
+    display: inline;
+   
+
+}
+.deals-desc input[type="email"]{
+    width: 600px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
 }
