@@ -174,3 +174,32 @@ span{
     margin-bottom: 25px;
 
 }
+
+/* ############# instagram section ###########*/
+
+.insta-head{
+    margin: 150px auto 40px;
+    text-align: center;
+}
+.insta-head h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.insta-head p{
+    width: 600px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.insta-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
