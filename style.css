@@ -6,8 +6,6 @@
 body{
     font-family: Lato;
     max-width: 100vw;
-
-    
 }
 
 
@@ -16,13 +14,25 @@ body{
 
 header{
     width: 1920px;
-    height: 828px;
+    height: 88vh;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 90px;
+    
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-menu li{
+    list-style-type: none;
+    display: inline-block;
+}
+
 .heading-img img{
     width: 630px;
     height: 780px;
@@ -258,7 +268,7 @@ footer{
     
     text-align: center;
     margin: auto;
-    padding-top: 80px ;
+    padding-top: 45px ;
 }
 footer h1{
     font-size: 50px;
