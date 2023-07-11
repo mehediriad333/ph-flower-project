@@ -139,3 +139,38 @@ header{
     display: block;
     margin: 16px auto;
 }
+
+/* ############### offer ############## */
+
+.offer{
+    height: 550px;
+    width: 100%;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 190px;
+}
+
+.offer-text{
+    width:600px ;
+    
+}
+
+span{
+    color: #E55473;
+}
+.offer-text h1{
+    font-size: 35px;
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.offer-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 25px;
+
+}
